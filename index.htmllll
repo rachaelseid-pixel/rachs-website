@@ -12,28 +12,43 @@
         This webpage was created as part of my HTML assignment. It demonstrates basic 
         structure, formatting, and elements used in web development.
     </p>
+<style>
+  body {
+    background-color: lightpink;
+    font-family: times new roman, sans-serif;
+    text-align: center;
+  }
+
+  h1 {
+    color: lightyellow;
+  }
+
+  p {
+    font-size: 18px;
+  }
+</style>
 
     <hr>
 
     <h2>About Me</h2>
     <p>
         My name is Rachael, and I am currently learning about computer networking and web development. 
-        This is one of my first experiences creating a webpage using HTML.
+        This is one of my first experiences creating a webpage using HTML. It is easier than it seems! :D
     </p>
 
-    <h2>My Interests</h2>
+    <h2>Things I enjoy:</h2>
     <ul>
         <li>Online shopping</li>
-        <li>Watching videos</li>
-        <li>Spending time with friends</li>
-        <li>Learning new technology</li>
+        <li>Watching good movies</li>
+        <li>Spending time with loved ones</li>
+        <li>Improving</li>
     </ul>
 
     <h2>Favorite Website</h2>
     <p>
         One of my favorite websites is 
         <a href="https://www.amazon.com" target="_blank">Amazon</a> 
-        because it makes online shopping quick and easy.
+        because it makes online shopping quick and easy. It is known for its quality products and fast shipping!
     </p>
 
     <h2>Sample Image</h2>
