@@ -8,6 +8,38 @@
     <!-- Styling -->
     <style>
         body {
+            <!DOCTYPE html>
+<html>
+<head>
+  <title>Guessing Game</title>
+</head>
+<body>
+
+<h1>Number Guessing Game</h1>
+<p>Guess a number between 1 and 10:</p>
+
+<input type="number" id="guess">
+<button onclick="checkGuess()">Submit</button>
+
+<p id="result"></p>
+
+<script>
+  let randomNumber = Math.floor(Math.random() * 10) + 1;
+
+  function checkGuess() {
+    let userGuess = document.getElementById("guess").value;
+    let result = document.getElementById("result");
+
+    if (userGuess == randomNumber) {
+      result.textContent = "Correct! You guessed it!";
+    } else {
+      result.textContent = "Wrong! The correct number was " + randomNumber;
+    }
+  }
+</script>
+
+</body>
+</html>
             background-color: lightpink;
             font-family: Arial, sans-serif;
             text-align: center;
